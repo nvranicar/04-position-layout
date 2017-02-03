@@ -163,17 +163,68 @@ img {
   margin: 0 2rem;
 }
 
-.kills {
+.skull {
+  max-width: 4rem;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-bottom: 0.5rem;
 }
 
-.skull {
-  max-width: 4rem;
+.kills {
   position: fixed;
+  top: 65%;
   left: 50%;
-  transform: translate(-50%, -10  0%);
-  margin-bottom: 0.5rem;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+}
+
+.reaper {
+  color: red;
+}
+
+.reinhardt {
+  color: red;
+}
+
+.ultimate {
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.ultimate__icon {
+  border: rgba(237,235,66,.72) 0.15rem solid;
+  border-radius: 50%;
+  border-style: dashed;
+  width: 4rem;
+  height: 4rem;
+}
+
+.percentage {
+  text-align: center;
+}
+
+.number {
+  font-size: 1.6rem;
+}
+
+.percent-symbol {
+  font-size: 1rem;
+  color: rgba(237,235,66,.72);
+  margin-left: -0.5rem;
+}
+
+.ultimate__keybinding {
+  padding: 0.5rem;
+  color: rgba(255,255,255,.67);
+  border: rgba(255,255,255,.67) 0.1rem solid;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  /*margin: 0 2rem;*/
+  /*text-align: center;*/
+  margin-left: 1rem;
 }
