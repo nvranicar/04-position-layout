@@ -1,10 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Overwatch HUD</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Overwatch HUD</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <main class="section section-bg">
+    <div class="container">
+      <div class="character-stats">
+        <img src="http://media.blizzard.com/overwatch/hero/lucio/icon-portrait-hexagon.png" alt="" class="avatar">
+        <div class="health">
+          <p class="health__text">
+            <span class="current-health">200</span>
+            <span class="slash">/</span>
+            <span class="total-health">200</span>
+          </p>
+          <p class="health__bar">
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="white-bar"></span>
+            <span class="yellow-bar"></span>
+            <span class="yellow-bar"></span>
+            <span class="yellow-bar"></span>
+            <span class="yellow-bar"></span>
+          </p>
+        </div>
+      </div>
+      <div class="info-right">
+        <div class="weapon-stats">
+          <p class="ammo__text">
+            <span class="current-ammo">8</span>
+            <span class="slash">/</span>
+            <span class="total-ammo">20</span>
+          </p>
+          <div class="weapon">
+            <img src="https://blzgdapipro-a.akamaihd.net/hero/lucio/ability-sonic-amplifier/icon-ability.png" alt="" class="gun-pic">
+          </div>
+        </div>
+        <div class="abilities">
+          <div class="ability-1">
+            <img src="http://www.owfire.com/images/wikibase/icon/abilities/crossfade.png" alt="" class="ability__pic">
+            <span class="keybindings">E</span>
+          </div>
+          <div class="ability-2">
+            <img src="http://www.owfire.com/images/wikibase/icon/abilities/amp-it-up.png" alt="" class="ability__pic">
+            <span class="keybindings">L</span>
+          </div>
+        </div>
+      </div>
+      <img src="https://files.slack.com/files-tmb/T0MD5BPU5-F40DRKV0A-d8ce44c884/skull_1024.png" alt="" class="skull">
+      <div class="kills">
+        <p class="kills__1">
+          <span class="eliminated">ELIMINATED</span>
+          <span class="reaper">REAPER</span>
+        </p>
+        <p class="kills__2">
+          <span class="eliminated">ELIMINATED</span>
+          <span class="reinhardt">REINHARDT</span>
+        </p>
+      </div>
+      <div class="ultimate">
+        <div class="ultimate__icon">
+          <p class="percentage">
+            <span class="number">31</span>
+            <span class="percent-symbol">%</span>
+          </p>
+        </div>
+        <p class="ultimate__keybinding">Q</p>
+      </div>
+    </div>
+  </main>
+</body>
+
 </html>
