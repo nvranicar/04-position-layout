@@ -180,6 +180,10 @@ img {
   font-size: 1.5rem;
 }
 
+.kills > * {
+  text-align: center;
+}
+
 .reaper {
   color: red;
 }
